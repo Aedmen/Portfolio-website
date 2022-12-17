@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.8305a112.css",
+    "main.js": "/portfolio-website/static/js/main.e04c669a.js",
+    "static/media/doodle items.png": "/portfolio-website/static/media/doodle items.5e6a791a27c219286b04.png",
+    "static/media/doodles mixed round.png": "/portfolio-website/static/media/doodles mixed round.4182c8e1fc939ded2c29.png",
+    "static/media/Group 62.png": "/portfolio-website/static/media/Group 62.2d166eac598080a327e3.png",
+    "static/media/Group 2346.png": "/portfolio-website/static/media/Group 2346.f62503f79a6c7eef519a.png",
+    "index.html": "/portfolio-website/index.html",
+    "main.8305a112.css.map": "/portfolio-website/static/css/main.8305a112.css.map",
+    "main.e04c669a.js.map": "/portfolio-website/static/js/main.e04c669a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8305a112.css",
+    "static/js/main.e04c669a.js"
+  ]
+}
