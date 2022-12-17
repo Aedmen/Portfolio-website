@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+
+/* Header */
+.header{
+    list-style:none;
+    display:flex;
+    background-color:#222831;
+    /* padding:23px; */
+    justify-content: flex-end;
+}
+.header li{
+    padding:1.438rem;
+}
+
+/* cover page */
+.front-page{
+    display:flex;
+    background-color:#222831;
+    justify-content: space-around;
+    height:70vh;
+}
+.cover-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cover-text h1{
+    font-size:3.5rem;
+}
+.header2{
+    color:#00ADB5;
+}
+.cover-img{
+    z-index: 54;
+    position: relative;
+    top: 7.875rem;
+}
+.cover-doodle{
+    position: absolute;
+    top: 5.938rem;
+}
+.arrow-doodle{
+    width: 2.5rem;
+    position: absolute;
+    left: 11.125rem;
+    bottom: 20.813rem;
+
+}
+.hire-me,.cv-download{
+    margin:0.625rem;
+    border-radius:1.25rem;
+    border: none;
+    padding: 0.625rem 1.938rem;
+}
+.hire-me{
+    background-color: #00ADB5;
+}
+.cv-download{
+    background-color: #393E46;
+
+}
+/* About Me */
+.my-info{
+    display:flex;
+    padding: 1.875rem 8.25rem;
+    background-color:#222831;
+    justify-content: space-around;
+}
+.info{
+    margin-top:3.375rem;
+    height: 63vh;
+    width: 76vh;
+}
+.about-me{
+    display:flex;
+}
+.me{
+    color:#00ADB5;
+    margin-left:0.625rem;
+}
+.about-doodle{
+    position:absolute;
+}
+.info-img{
+    margin-top:5.625rem;
+}
+.about-img{
+    position: relative;
+    z-index: 34;
+    height: 31vh;
+    top: 8.438rem;
+    left: 3.938rem;
+}
+/* Project Page */
+.project-page{
+    background-color:#222831;
+    background-image:url('doodle items.png');
+    /* background-blend-mode: lighten; */
+    background-repeat:repeat;
+    display:flex;
+    height:80vh;
+    flex-direction:column;
+    padding:1.25rem 1.875rem;
+}
+.project-headings,.project-btn{
+    margin-top:2.5rem;
+    margin-left:1.875rem;
+}
+.project-headings   {
+    display:flex;
+    flex-direction:row;
+}
+.project-heading2{
+    color:#00ADB5;
+    margin-left:0.625rem;
+}
+.project-btn{
+    margin:0.625rem;
+    border: none;
+}
+.project-btn button{
+    background-color:#393E46;
+    border-radius:1.25rem;
+    padding: 0.625rem 1.938rem;
+}
+/* Contact Form */
+.contact-page{
+    background-color:#222831;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 1.75rem 9.938rem;
+}
+.contact-heading2{
+    color:#00ADB5;
+}
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    padding: 0rem 1.25rem;
+    height:80vh;
+}
+.contact-form input,.contact-form textarea{
+    background-color:#393E46;
+    color:grey;
+    border-radius:1.25rem;
+    border:none;
+    padding:1.25rem 2.1rem;
+    margin-bottom: 0.625rem;
+}
+.contactt-form textarea{
+    width:18.125rem;
+    height:21.25rem;
+}
+.send-btn{
+    background-color:#00ADB5;
+    border-radius:1.25rem;
+    padding: 0.625rem 1.938rem;
+}
+.contact-img1{
+    transform: rotate(326deg);
+    margin-bottom: 8.313rem;
+    position: relative;
+    left: 2.5rem;
+}
+.contact-img2{
+    margin-top: 2.25rem;
+    margin-left: 6.25rem;
+}
+@media only screen and (max-width:1103px){
+    .cover-img,.cover-doodle,.about-img,.about-doodle,.arrow-doodle,.contact-img1,.contact-img2{
+        display:none;
+    }
+    .contact-page{
+        flex-direction:column;
+        padding:1.2rem;
+    }
+    .info-text{
+        width:16.313rem;
+    }
+}
